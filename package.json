@@ -1,0 +1,26 @@
+{
+	"name" : "qtree",
+	"description" : "Promises in chains",
+	"url" : "http://www.redsandro.com",
+	"version" : "0.1.0",
+	"builddate" : "2013-06-05",
+	"keywords" : [
+		"promises",
+		"flow control"
+	],
+	"author" : {
+		"name" : "Sander Steenhuis",
+		"email" : "redsandro@gmail.com",
+		"url" : "http://www.Redsandro.com"
+	},
+	"licenses" : ["GPL"],
+	"private" : true,
+	"noAnalyze": true,
+	"engines" : {
+		"node" : ">= 0.6.19"
+	},
+	"dependencies" : {
+		"q" : ">=0.9.4"
+	},
+	"main" : "./index.js"
+}

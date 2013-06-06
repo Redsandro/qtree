@@ -60,7 +60,7 @@ function switchIf(val, testFunc, thenFunc, elseFunc, throwBool) {
 		else
 			deferred.resolve(val);
 
-		return deferred;
+		return deferred.promise;
 	}
 
 	// Without a thenFunc, just pass through or throw error.
